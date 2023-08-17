@@ -1,0 +1,30 @@
+.clock {
+  position: relative;
+  background-color: lightgray;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.clockBase {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0%, 100% 70%, 0% 70%, 0 0);
+}
+
+.hours {
+  position: absolute;
+  background-color: white;
+}
+
+.minutes {
+  position: absolute;
+  background-color: white;
+}
+
+.seconds {
+  position: absolute;
+  background-color: white;
+  transform-origin: bottom center;
+}

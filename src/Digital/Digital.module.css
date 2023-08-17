@@ -1,0 +1,10 @@
+.clock {
+  position: relative;
+  width: max-content;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  background-color: black;
+  padding: 8px;
+  min-width: 100px;
+}
